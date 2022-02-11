@@ -11,6 +11,7 @@ export const Repairs = () => {
       <CustomerList />
       <h2>Employee List</h2>
       <EmployeeList />
+      <h2>Ticket List</h2>
       <TicketList />
     </>
   );
