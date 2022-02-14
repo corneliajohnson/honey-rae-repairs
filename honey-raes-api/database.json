@@ -59,6 +59,12 @@
       "name": "Renaud Erbe",
       "address": "30 Westridge Pass",
       "email": "rerbe9@psu.edu"
+    },
+    {
+      "name": "Cornelia Johnson",
+      "address": "123 Main St",
+      "email": "cj@gmail.com",
+      "id": 11
     }
   ],
   "employees": [
