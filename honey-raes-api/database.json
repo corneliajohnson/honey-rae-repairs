@@ -95,6 +95,11 @@
       "description": "Cannot connect to any wifi.",
       "emergency": true,
       "dateCompleted": ""
+    },
+    {
+      "description": "need help",
+      "emergency": "true",
+      "id": 3
     }
   ]
 }
