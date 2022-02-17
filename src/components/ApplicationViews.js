@@ -16,6 +16,8 @@ export const ApplicationViews = () => {
       </Route>
       <Route path="/tickets">
         <TicketList />
+      </Route>
+      <Route path="/ticket/create">
         <TicketForm />
       </Route>
     </>

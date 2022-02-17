@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
+import { useHistory } from "react-router-dom";
 
 export const TicketList = () => {
   const [tickets, getTickets] = useState([]);
+  const history = useHistory();
 
   useEffect(() => {
     fetch(
@@ -15,10 +17,11 @@ export const TicketList = () => {
 
   return (
     <>
-      {/* Description of the service ticket 
-      Name of the customer 
-      Name of the
-      employee doing the repair */}
+      <div>
+        <button onClick={() => history.push("/ticket/create")}>
+          Create Ticket
+        </button>
+      </div>
       {tickets.map((ticket) => {
         return (
           <div key={`ticketService--${ticket.id}`}>
