@@ -71,6 +71,11 @@
       "id": 2,
       "name": "Rose Schmitt",
       "specialty": "Printers"
+    },
+    {
+      "name": "John Hen",
+      "specialty": "Driver",
+      "id": 3
     }
   ],
   "serviceTickets": [
