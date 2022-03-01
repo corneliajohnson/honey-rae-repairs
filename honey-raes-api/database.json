@@ -89,6 +89,22 @@
       "description": "Cannot connect to any wifi.",
       "emergency": true,
       "dateCompleted": ""
+    },
+    {
+      "emergency": false,
+      "description": "test issue",
+      "customerId": "2",
+      "employeeId": "2",
+      "dateCompleted": "2022-03-01",
+      "id": 3
+    },
+    {
+      "emergency": "true",
+      "description": "test 2",
+      "customerId": "1",
+      "employeeId": "1",
+      "dateCompleted": "2022-02-28",
+      "id": 4
     }
   ]
 }

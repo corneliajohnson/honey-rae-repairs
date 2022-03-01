@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
+import { useHistory } from "react-router-dom";
 
 export const TicketForm = () => {
   const [checked, setChecked] = useState(false);
   const [ticket, setTicket] = useState({ emergency: checked });
   const [employees, setEmployee] = useState([]);
   const [customers, setCustomers] = useState([]);
+  const history = useHistory();
 
   useEffect(() => {
     fetch("http://localhost:8088/employees")
@@ -39,7 +41,7 @@ export const TicketForm = () => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(ticket),
-    });
+    }).then(() => history.push("/tickets"));
   };
 
   return (
